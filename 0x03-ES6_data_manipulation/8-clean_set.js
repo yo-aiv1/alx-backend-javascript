@@ -1,4 +1,8 @@
 export default function cleanSet(Aset, SubString) {
+  if (SubString.length === 0) {
+    return '';
+  }
+
   let result = '';
   for (const val of Aset) {
     if (val.slice(0, 3) === SubString) {
