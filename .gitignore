@@ -13,3 +13,11 @@
 0x00-ES6_basic/babel.config.js
 0x00-ES6_basic/package-lock.json
 0x00-ES6_basic/main.js
+
+0x03-ES6_data_manipulation/package.json
+0x03-ES6_data_manipulation/.eslintrc.js
+0x03-ES6_data_manipulation/utils.js
+0x03-ES6_data_manipulation/node_modules
+0x03-ES6_data_manipulation/babel.config.js
+0x03-ES6_data_manipulation/package-lock.json
+0x03-ES6_data_manipulation/main.js
