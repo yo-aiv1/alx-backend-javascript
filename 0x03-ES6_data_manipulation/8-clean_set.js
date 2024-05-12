@@ -1,5 +1,9 @@
 export default function cleanSet(Aset, SubString) {
-  if (SubString.length === 0) {
+  if (
+    typeof Aset !== 'object'
+    || typeof SubString !== 'string'
+    || SubString.length === 0
+  ) {
     return '';
   }
 
